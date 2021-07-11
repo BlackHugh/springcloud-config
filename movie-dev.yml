@@ -8,9 +8,9 @@ spring:
     base-url: http://127.0.0.1:9041
     sender:
       type: web
-    sleuth:
-      sampler:
-        probability: 1
+  sleuth:
+    sampler:
+      probability: 1
 
 eureka:
   client:
